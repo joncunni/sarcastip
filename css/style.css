@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.clearFix {
+  *zoom: 1;
+}
+.clearFix:before,
+.clearFix:after {
+  display: block;
+  clear: both;
+  content: "";
+  line-height: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: HelveticaNeue-Light;
+}
+body {
+  background-color: #006bff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 20px;
+}
