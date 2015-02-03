@@ -126,7 +126,7 @@ p {
   margin-top: 75px;
   font-weight: bold;
 }
-#contentTotal h2 {
+#contentTotal button {
   height: 50px;
   width: 200px;
   border-radius: 10px;
@@ -138,21 +138,21 @@ p {
   font-size: 25px;
   color: #292B2F;
 }
-#contentTotal {
+#contentFinal {
   background-color: #3F91EB;
   width: 600px;
   height: 720px;
   border-radius: 15px;
   margin: 0 auto;
 }
-#contentTotal a {
+#contentFinal a {
   text-decoration: none;
   color: black;
 }
-#contentTotal a:visited {
+#contentFinal a:visited {
   color: black;
 }
-#contentTotal p {
+#contentFinal p {
   float: right;
   font-size: 35px;
   margin-right: 90px;
@@ -160,7 +160,7 @@ p {
   margin-top: 75px;
   font-weight: bold;
 }
-#contentTotal h2 {
+#contentFinal h2 {
   height: 50px;
   width: 200px;
   border-radius: 10px;
