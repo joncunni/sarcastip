@@ -15,9 +15,7 @@
 html,
 body {
   height: 100%;
-  font-family: 'Oswald', sans-serif;
-  font-weight:300;
-  color: #292B2F;
+  font-family: HelveticaNeue-Light;
 }
 h1,
 h2,
@@ -27,42 +25,107 @@ h5,
 h6,
 p {
   margin-bottom: 30px;
-  font-weight: 700;
 }
-#content {
-  background-color: #3F91EB;
+#contentHome {
+  background-color: #006bff;
   width: 600px;
   height: 720px;
   border-radius: 15px;
   margin: 0 auto;
 }
-#content #header {
+#contentHome a {
+  text-decoration: none;
+  color: black;
+}
+#contentHome a:visited {
+  color: black;
+}
+#contentHome #header {
   float: right;
   position: relative;
   width: 250px;
   margin: 200px 175px 50px 175px;
 }
-#content #header h1 {
+#contentHome #header h1 {
   font-size: 60px;
 }
-#content p {
+#contentHome p {
   float: right;
   font-size: 35px;
-  margin-right: 50px;
+  margin-right: 30px;
   font-weight: bold;
 }
-#content #start {
+#contentHome #start {
   height: 50px;
   width: 200px;
   border-radius: 10px;
-  border: solid #FAC100;
-  background-color:#F9EA00;
+  border: solid black;
   margin-bottom: 100px;
   margin-left: 195px;
   font-weight: bold;
   font-size: 25px;
-  color: #292B2F;
 }
-.white{
-    color:#EEF0F3;
+#contentService {
+  background-color: #006bff;
+  width: 600px;
+  height: 720px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+#contentService a {
+  text-decoration: none;
+  color: black;
+}
+#contentService a:visited {
+  color: black;
+}
+#contentService p {
+  float: right;
+  font-size: 35px;
+  margin-right: 90px;
+  margin-bottom: 75px;
+  margin-top: 75px;
+  font-weight: bold;
+}
+#contentService button {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: solid black;
+  margin-bottom: 100px;
+  margin-left: 195px;
+  font-weight: bold;
+  font-size: 25px;
+}
+#contentTotal {
+  background-color: #006bff;
+  width: 600px;
+  height: 720px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+#contentTotal a {
+  text-decoration: none;
+  color: black;
+}
+#contentTotal a:visited {
+  color: black;
+}
+#contentTotal p {
+  float: right;
+  font-size: 35px;
+  margin-right: 90px;
+  margin-bottom: 75px;
+  margin-top: 75px;
+  font-weight: bold;
+}
+#contentTotal h2 {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: solid black;
+  margin-bottom: 100px;
+  margin-left: 195px;
+  font-weight: bold;
+  font-size: 25px;
 }
