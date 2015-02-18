@@ -6,11 +6,52 @@
     <meta name="author" content="Jon Cunningham"/>
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, user-scalable=1, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="script/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<section>this is a section. with lots of stuff and really cool things.</section>
 
+<div id="firstView" class="view">
+    <div id="logoBox">
+        <i class="fa fa-check-square"></i>
+    </div>
+</div>
+
+<div id="secondView" class="view">
+    <div id="question">
+        <p>What the fuck are you tipping for?</p>
+    </div>
+
+    <div id="buttons">
+        <button>Food</button>
+        <button>Haircut</button>
+        <button>Other</button>
+    </div>
+</div>
+
+<div id="thirdView" class="view">
+    <div id="total">
+        <p>What's your fucking total?</p>
+    </div>
+    <div id="calculate">
+        <input type="text"/>
+        <button>Calculate</button>
+    </div>
+    <div id="status">
+        <p>Saint Status: </p><br/><input type="text"/>
+        <p>Mediocre: </p><br/><input type="text"/>
+        <p>Asshole: </p><br/><input type="text"/>
+    </div>
+</div>
+
+<nav>
+    <div id="first"><span><i class="fa fa-home"></i></span></div>
+    <div id="second"><span><i class="fa fa-calculator"></i></span></div>
+    <div id="third"><span><i class="fa fa-check-circle"></i></span></div>
+</nav>
+
+<script src="script/jquery.min.js"></script>
+<script src="script/jquery.transit.min.js"></script>
 <script src="script/script.js"></script>
 </body>
 </html>
