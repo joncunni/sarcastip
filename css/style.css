@@ -125,7 +125,7 @@ nav div .fa {
 #thirdView #status {
   width: 80%;
   height: 40%;
-  background-color: #8EC1CC;
+  background-color: #5d98d1;
   margin: 0 auto;
 }
 #thirdView #status p {
@@ -133,4 +133,8 @@ nav div .fa {
 }
 #thirdView #status input[type=text] {
   /*float: right;*/
+  font-size: 2em;
+  background: transparent;
+  border: none;
+  color: #44474d;
 }
